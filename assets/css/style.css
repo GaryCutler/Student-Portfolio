@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-right: 20px;
+    font-family: "calbri";
+    font-size: 20px;  
+}
+nav{
+    display: inline-block;
+}
+.Header h1{
+    display: inline-block;
+    margin-top: 0px;
+     }
+   
+.tabs{
+    display: flex;
+    list-style-type: none; ;
+ }
+   nav li{
+    padding: 11px;
+   }
+
+
+
+
+
