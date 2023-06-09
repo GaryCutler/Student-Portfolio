@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     background-color: aquamarine;
-    margin-right: 20px;
     font-family: "calbri";
     font-size: 20px;  
 }
@@ -27,7 +26,10 @@ nav{
    nav li{
     padding: 11px;
    }
-
+.aboutme{
+    padding: 20px;
+    background-color: blue;
+}
 
 
 
