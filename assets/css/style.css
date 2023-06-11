@@ -1,9 +1,12 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
-
+body{
+    background: white ;
+}
 .Header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +14,10 @@
     font-family: "calbri";
     font-size: 20px;  
 }
+.Header h1{
+    background-color: antiquewhite;
+}
+
 nav{
     display: inline-block;
 }
@@ -26,11 +33,67 @@ nav{
    nav li{
     padding: 11px;
    }
-.aboutme{
-    padding: 20px;
-    background-color: blue;
+   nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+   }
+   nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px; 
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+nav ul li a:hover::after{
+    width: 100%;
 }
 
+/* head image */
 
+/* about section */
+#about {
+    padding: 80px 0;
+
+}
+ .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .column1{
+   flex-basis: 10%;
+   border-style:   solid;
+   border: 20px;
+ }
+.column1 img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+ }
+ .column2{
+   flex-basis: 88%;
+ }
+ #Work{
+    margin-top: 100px 
+}
+.work-image1 img{
+    width: 50%;
+    height: 50%;
+
+}
+.work-image2 img{
+    width: 12%;
+    height: 12%;
+
+}
+#Contact-me{
+    margin-top: 100px;
+}
 
 
