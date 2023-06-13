@@ -3,19 +3,21 @@
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    color: white;
+ 
 }
 body{
-    background: white ;
+    background:black ;
 }
 .Header{
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: black;
     font-family: "calbri";
     font-size: 20px;  
 }
 .Header h1{
-    background-color: antiquewhite;
+    background-color: green;
 }
 
 nav{
@@ -93,6 +95,7 @@ nav ul li a:hover::after{
 
 }
 #Contact-me{
+   background-color: green;
     margin-top: 100px;
 }
 
